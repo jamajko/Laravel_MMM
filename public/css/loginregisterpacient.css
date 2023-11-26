@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+body{
+background: #004aad;
+margin: 15px;
+margin-top: 50px;
+}
+
+/* LOGIN BOX */
+
+.loginbox,
+.loginbox * {
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.loginbox {
+	max-width: 350px;
+	margin: 0 auto;
+	border-radius: 5px;
+	overflow: hidden; 
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.loginbox_logo-cointainer {
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.loginbox_logo {
+	display: block;
+	max-width: 125px;
+	margin: 0 auto;
+	
+}
+
+.loginbox_content {
+	padding: 30px;
+	background: #eeeeee;
+}
+
+.loginbox_header {
+	margin-bottom: 15px;
+	text-align: center;
+	color: #333333;
+}
+
+.loginbox_input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #dddddd;
+	background: #ffffff;
+	outline: none;
+	transition: border-color 0.5s;
+}
+
+.loginbox_input:focus {
+	border-color: #004aad;
+}
+
+.loginbox_input:placeholder {
+	color: #aaaaaa;
+}
+
+.loginbox_button {
+	padding: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	background: #004aad;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.loginbox_button:active {
+	background: #023E8F;
+}
+
+.loginbox_links {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.loginbox_link {
+	font-size: 0.9em;
+	color: #004aad;
+	text-decoration: none;
+}
